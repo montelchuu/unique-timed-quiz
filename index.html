@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <div id="home">
+            <div id="starting" class="flex-center flex-column">
+                <h1> Coding Quiz</h1>
+                <a class="btn" id="start">Start Quiz</a>
+                <a class="btn" id="highscore">View High Scores</a>
+            </div>
+            <div  id="highscores" class="flex-center flex-column">
+                <section>
+                    <h2>High Scores</h2>
+                    <ol id="highScoresList"></ol>
+                </section>
+                <a class="btn" href="./index.html">Go back</a>
+                <a class="btn" id="clearscores">Clear scores</a>
+            </div>
+            
+            <div id="game" class="justify-center flex-column">
+                <div id="hud">
+                    <div id="hud-item"> 
+                        <p class="hud-prefix">
+                            Question
+                        </p>
+                        <h1 class="hud-main-text" id="question-counter"></h1>
+                    </div>
+    
+                    <div id="hud-item">
+                        <p class="hud-prefix">
+                            Timer
+                        </p>
+                        <h1 class="hud-main-text" id="score">
+                            100
+                        </h1>
+                    </div>
+                </div>
+                <h2 id="question">What is the answer to this questions?</h2>
+                <div class="choice-container">
+                    <p class="choice-prefix">1.</p>
+                    <p class="choice-text" data-number="1">Choice 1</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">2.</p>
+                    <p class="choice-text" data-number="2">Choice 2</p>
+                    </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">3.</p>
+                    <p class="choice-text" data-number="3">Choice 3</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">4.</p>
+                    <p class="choice-text" data-number="4">Choice 4</p>
+                </div>
+            </div>
+            <div id="end" class="flex-center flex-column">
+                <h1>Total Score:</h1>
+                <h1 id="finalScore"></h1>
+                <form>
+                    <input type="text" name="username" id="username" placeholder="username">
+                    <a type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)">Save</a>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="./assets/js/game.js"></script>
+</body>
+</html>
