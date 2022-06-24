@@ -1,7 +1,7 @@
 # unique-timed-quiz
 
 ### Summary
-* Javascrip[t times quiz with high score
+* Javascript times quiz with high score
 * Prompts will show up to for rules.
 
 ![](Assets/images/coding-quiz.jpg)
