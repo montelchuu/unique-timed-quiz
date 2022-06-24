@@ -1,5 +1,7 @@
 # unique-timed-quiz
 
+https://montelchuu.github.io/unique-timed-quiz/
+
 ### Summary
 * Javascript times quiz with high score
 * Prompts will show up to for rules.
@@ -15,7 +17,7 @@
 
 * Example Question
 
-![]((assets/images/example-question.jpg)
+![](assets/images/example-question.jpg)
 
 * Example High scores
 
