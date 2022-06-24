@@ -4,7 +4,7 @@
 * Javascript times quiz with high score
 * Prompts will show up to for rules.
 
-![](Assets/images/coding-quiz.jpg)
+![](assets/images/coding-quiz.jpg)
 
 ### The project layout
 * The user can press the start quiz button or view high scores button.
@@ -15,11 +15,11 @@
 
 * Example Question
 
-![]((Assets/images/example-question.jpg)
+![]((assets/images/example-question.jpg)
 
 * Example High scores
 
-![](Assets/images/leaderboard.jpg)
+![](assets/images/leaderboard.jpg)
 
 ### Features
 * HTML
